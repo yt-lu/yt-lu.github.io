@@ -1,2 +1,0 @@
-# Yuanting Lu
-jklmn
