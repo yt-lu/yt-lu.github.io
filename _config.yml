@@ -13,16 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Yuanting
+title: Yuanting Lu
+email: lu_y@mercer.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. 
+  A passion in teaching mathematics. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yuanting.lu" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  yt-lu
 
 # Build settings
-markdown: kramdown
+# Apply this change to _config.yml file
+kramdown:
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
 theme: minima
 plugins:
   - jekyll-feed
