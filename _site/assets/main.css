@@ -305,6 +305,19 @@ table {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 /**
+ * Columns
+ */
+.home-page-left {
+  float: left;
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2)); }
+
+.home-page-right {
+  float: right;
+  width: -webkit-calc(60% - (30px / 2));
+  width: calc(60% - (30px / 2)); }
+
+/**
  * Page content
  */
 .page-content {
